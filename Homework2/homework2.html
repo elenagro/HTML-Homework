@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>Пријава УЈП</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <table border="1" cellpadding="20" cellspacing="10">
+            <tr>
+                <td><img src="https://isos.com.mk/media/k2/items/cache/1e3c9dbcc3313d4457c9e940970626c5_XL.jpg" width="310"></td>
+                <td><h1>ПРИЈАВА</h1><h2>за вработување во Управа за јавни приходи</h2></td>
+            <td><img src="./ujp2.png" sizes="150"></td>
+            </tr>          
+        </table>
+
+        <table cellpadding="20" cellspacing="10">
+            <tr>
+                <td>
+                    <p>Број на оглас <input type="number" min="0" max="9"><input type="number" min="0" max="9"><strong>/</strong><input type="number" min="0" max="9"><input type="number" min="0" max="9"><input type="number" min="0" max="9"><input type="number" min="0" max="9"></p>
+                    <p>Реден број на работно<br> место за кое аплицирате <input type="text" size="50"></p>
+                </td>
+                <td>
+                    <p><i>*Пополнува управа за јавни приходи</i></p>
+                    <table>
+                        <td>Датум и <br> број на <br> прием </td>
+                        <td><input type="text" size="50"></td>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h4>ЛИЧНИ ПОДАТОЦИ</h4>
+        <!-- Tabela za licni podatoci -->
+        <table border="1" cellpadding="5" cellspacing="10">
+                <tr>
+                    <td>Име и презиме</td>
+                    <td colspan="3"><p><input type="text" size="130"></p></td>
+                </tr>
+                <tr>
+                    <td>Датум на раѓање</td>
+                    <td><p><input type="date"></p></td>
+                    <td><p>Пол <input name="sex" id="male" type="radio" value="M"/>
+                        <label for="male">М</label><input name="sex" id="female" type="radio" value="Z"/><label for="female">Ж</label></p>
+                    </td>
+                    <td><p>Државјанин на РМ <input name="nationality" id="yes" type="radio" value="yes"/><label for="yes">Да</label><input name="nationality" id="no" type="radio" value="no"/><label for="no">Не</label></p></td>
+                </tr>
+                <tr>
+                    <td><p>Адреса</p></td>
+                    <td colspan="3"><p><input type="text" size="130"></p></td>
+                </tr>
+                <tr>
+                    <td>Контакт</td>
+                    <td><p>Телефон <input type="text" size="30"></p></td>
+                    <td colspan="2"><p>е-Пошта <input type="text" size="72"></p></td>                    
+                </tr>
+        </table>
+
+        <h4>ОБРАЗОВАНИЕ</h4>
+        <!-- Tabela za obrazovanie -->
+        <table border="1" cellpadding="5" cellspacing="10">
+            <tr>
+                <td><p>Образовна институција</p></td>
+                <td colspan="3"><p><input type="text" size="107"></p></td>
+            </tr>
+            <tr>
+                <td>Насока на завршено
+                    образование / смер</td>
+                <td colspan="3"><p><input type="text" size="107"></p></td>
+            </tr>
+            <tr>
+                <td>Степен на образование</td>
+                <td colspan="2"><p><input name="education" id="IV" type="radio" value="IV"><label for="IV">IV</label><input name="education" id="VI" type="radio" value="VI"><label for="VI">VI</label><input name="education" id="VII/1" type="radio" value="VII/1"><label for="VII/1">VII/1</label><input name="education" id="VII/2" type="radio" value="VII/2"><label for="VII/2">VII/2</label><input name="education" id="VIII" type="radio" value="VIII"><label for="VIII">VIII</label></p></td>
+                <td>
+                    <table border="1">
+                        <td><p><input id="EKTS" type="radio" value="EKTS"><label for="EKTS"> ЕКТС </label></p></td>
+                        <td><p><input type="number" min="0" max="500"></p></td>
+                        <td>кредити</td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Просечна оцена</td>
+                <td colspan="3"><p><input type="number" min="6" max="10" placeholder="6.00-10"></p></td>
+            </tr>
+        </table>
+
+        <h4>РАБОТНО ИСКУСТВО</h4>
+        <!-- Tabela za rabotno iskustvo -->
+        <table border="1" cellpadding="5" cellspacing="10">
+            <tr>
+                <td>Работно искуство</td>
+                <td colspan="3"><p><input name="experience" id="da" type="radio" value="da"><label for="da">Да</label><input name="experience" id="ne" type="radio" value="ne"><label for="ne">Не</label></p></td>
+            </tr>
+            <tr>
+                <td>Вкупен работен стаж</td>
+                <td><p><input type="number" min="0" max="50"> години <input type="number" min="0" max="11"> месеци</p></td>
+                <td colspan="2">Работно искуство во струката <input type="number" min="0" max="50"> години <input type="number" min="0" max="11"> месеци</td>
+            </tr>
+            <tr>
+                <td>Област во која е стекнато работното искуство</td>
+                <td colspan="3"><p><input type="text" size="101"></p></td>
+            </tr>
+        </table>
+
+        <h4>ВЕШТИНИ</h4>
+        <!-- Tabela za vestini -->
+        <table border="1" cellpadding="5" cellspacing="10">
+            <tr>
+                <td>Познавање на јазици</td>
+                <td><p><input type="text" size="118"></p></td>
+            </tr>
+            <tr>
+                <td>Компјутерски вештини</td>
+                <td><p><input type="text" size="118"></p></td>
+            </tr>
+            <tr>
+                <td>Возачка дозвола (категорија)</td>
+                <td><p><input type="text" size="118"></p></td>
+            </tr>
+            <tr>
+                <td>Други персонални <br>способности и вештини</td>
+                <td><p><input type="text" size="118"></p></td>
+            </tr>
+        </table>
+
+        <h4>ИЗЈАВА</h4>
+        <table border="1" cellpadding="5" cellspacing="10">
+            <tr>
+                <td><p>Изјавувам под морална, материјална и кривична одговорност, дека податоците наведени во оваа пријава се веродостојни и дека на барање на Управата за<br>јавни приходи ќе доставам докази, во оригинал или копија заверена кај нотар. Се согласувам личните податоци наведени во пријавата да се користат<br>исклучиво за цели на постапката на вработување во Управата за јавни приходи.</p></td>
+            </tr>
+        </table>
+
+        <h4>ПОДАТОЦИ ЗА ПОДНОСИТЕЛОТ НА ПРИЈАВАТА</h4>
+        <table border="1" cellpadding="5" cellspacing="10">
+            <tr>
+                <td> Потпис </td>
+                <td><p><input type="text" placeholder="Своерачен потпис" size="93"></p></td>
+                <td>Датум на поднесување</td>
+                <td><p><input type="date"></p></td>
+            </tr>
+        </table>
+        <p><i>* Образецот е објавен на веб страницата на УЈП <a href="http://www.ujp.gov.mk/s/obrasci/opis/105" target="_blank">http://www.ujp.gov.mk/s/obrasci/opis/105</a> и важи од 17.06.2013 година</i></p>      
+    </body>
+</html>
