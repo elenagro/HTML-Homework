@@ -1,0 +1,24 @@
+.red_back {
+    background-color: red;
+}
+.white_text {
+    color: white;
+}
+.yellow_back {
+    background-color: yellow;
+}
+.grey_back {
+    background-color: grey;
+}
+.red_text {
+    color: red;
+}
+.blue_text {
+    color: rgba(55, 176, 233, 0.8);
+}
+#block {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    padding: 20px;
+
+}

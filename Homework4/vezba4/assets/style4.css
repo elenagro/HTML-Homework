@@ -1,0 +1,9 @@
+body {
+    background-image: url(./images4/giraffe.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+h2 {
+    color: blue;
+    font-size: 40px;
+}
